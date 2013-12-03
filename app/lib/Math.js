@@ -29,6 +29,6 @@
 	highNum = new goog.math.Long(0, high);
 	lowNum = new goog.math.Long(low, 0);
 	expected = highNum.add(lowNum);
-
+   //comment
 	return expected.toNumber();
 }
